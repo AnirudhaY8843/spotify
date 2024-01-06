@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/utility.css">
+
+    <title>Spotify - Web Player: Music for everyone</title>
+
+</head>
+
+<body>
+
+    <div class="main flex bg-black">
+
+        <div class="left">
+
+            <div class="close">
+                <img class="invert" src="./images/close.svg" alt="close">
+            </div>
+
+            <div class="nav bg-grey radius m-1 p-1">
+                <div class="logo bg-grey"><img class="invert" src="./images/logo.svg" alt="spotify logo"></div>
+                <ul>
+                    <li><img class="invert" src="./images/home.svg" alt="home">Home</li>
+                    <li class="grey"><img class="invert" src="./images/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library radius bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="./images/lib.svg" alt="library">
+                    <h2 class="grey">Your library </h2>
+                </div>
+
+                <div class="songlist">
+                    <ul>
+                        
+                    </ul>
+
+                </div>
+
+                <div class="footer">
+                    <div> <a href="https://www.spotify.com/jp/legal/" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div> <a href="https://www.spotify.com/jp/privacy/" data-encore-id="textLink"><span
+                                data-encore-id="type">Privacy Center</span></a></div>
+                    <div> <a href="https://www.spotify.com/jp/legal/privacy-policy/" data-encore-id="textLink"><span
+                                data-encore-id="type">Privacy Policy</span></a></div>
+                    <div> <a href="https://www.spotify.com/jp/legal/cookies-policy/" data-encore-id="textLink"><span
+                                data-encore-id="type">Cookies</span></a></div>
+                    <div> <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3" data-encore-id="textLink"><span
+                                data-encore-id="type">About Ads</span></a></div>
+                    <div> <a href="https://www.spotify.com/jp/accessibility/" data-encore-id="textLink"><span
+                                data-encore-id="type">Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right radius">
+
+            <div class="header bg-grey">
+
+                <div class="ham">
+                    <img class="invert hamburger" src="./images/hamburger.svg" alt="hamburger">
+                    <div class="lr">
+                        <img class="invert round" src="./images/left.svg" alt="left">
+                        <img class="invert round" src="./images/right.svg" alt="right">
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="btn btn-1">Sign up</button>
+                    <button class="btn btn-2">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotify-playlist">
+                <div class="play-header">
+                    <h1>Spotify Playlists </h1>
+                    <span>show all</span>
+                </div>
+                <div class="card-container">
+                    <!-- <div data-folder="cs" class="card radius">
+                        <img src="./images/spotify1.jpg" alt="img">
+                        <div class="play">
+                            <img src="./images/playbutton.svg" alt="playbutton">
+                        </div>
+                        <h2>Today’s Top Hits</h2>
+                        <p>Taylor Swift is on top of the Hottest 50!</p>
+                    </div>
+
+                    <div  data-folder="ncs" class="card radius">
+                        <img src="./images/spotify1.jpg" alt="img">
+                        <div class="play">
+                            <img src="./images/playbutton.svg" alt="playbutton">
+                        </div>
+                        <h2>Today’s Top Hits</h2>
+                        <p>Taylor Swift is on top of the Hottest 50!</p>
+                    </div>
+
+                    <div  data-folder="myplaylist" class="card radius">
+                        
+                        <img src="./images/spotify1.jpg" alt="img">
+                        <div class="play">
+                            <img src="./images/playbutton.svg" alt="playbutton">
+                        </div>
+                        <h2>Today’s Top Hits </h2>
+                        <p>Taylor Swift is on top of the Hottest 50!</p>
+                    </div> -->
+
+
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+                    <div class="songinfo">
+                        <!-- <marquee id="scr"behavior="scroll" direction="left">
+                          none
+                        </marquee> -->
+                    </div>
+                    <div class="playbtn">
+                        <img id="previous" src="./images/prev.svg" alt="previous">
+                        <img id="play" class="mid" src="./images/play.svg" alt="play">
+                        <img id="next" src="./images/next.svg" alt="next">
+                    </div>
+
+                    <div class="st">
+                        <div class="volume ">
+                            <img class="invert" src="./images/volume.svg" alt="on">
+                            <div class="range">
+                                <input type="range" id="range" name="volume">
+                            </div>
+                        </div>
+                        <div class="songtime">
+
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
